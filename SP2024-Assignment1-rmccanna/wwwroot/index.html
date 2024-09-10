@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Fellowship of the Ring IMDB Summary Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+
+    <style>
+        #CoverArt {
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #mainDiv {
+            margin: auto;
+            width: 35%;
+            border: 2px solid green;
+            padding: 10px;
+        }
+
+        #Title {
+            text-align: center;
+            font-family: fantasy;
+        }
+
+        body {
+            background-color: #40826D;
+        }
+
+        #Rating {
+            text-align: center;
+            font-family: fantasy;
+            font-size: large;
+        }
+
+        #Actors {
+            text-align: center;
+            font-family: fantasy;
+        }
+
+        #Description {
+            text-align: center;
+            font-family: fantasy;
+            margin: auto;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainDiv" style="text-align:center;">
+        <h1 id="Title">The Fellowship of the Ring</h1>
+        <h5 id="Rating">8.9/10</h5>
+        <img id="CoverArt" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROXcRkMBWPAQHM1il6uE4VDvXCmvnef2op1w&s">
+        <iframe id="iframe" src="https://www.youtube.com/embed/aStYWD25fAQ" title="The Lord of the Rings: The Fellowship of the Ring Official Trailer #2 - (2001) HD" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <a href="https://www.imdb.com/title/tt0120737/"><br>IMDB Page</a>
+        <p id="Description">
+            A meek Hobbit from the Shire and eight companions<br>
+            set out on a journey to destroy the powerful<br>
+            One Ring and save Middle-earth from the Dark Lord Sauron.
+        </p>
+        <ul id="Actors">
+            Notable Cast Members
+            <li>Elijah Wood</li>
+            <li>Ian McKellen</li>
+            <li>Viggo Mortensen</li>
+            <li>Christopher Lee</li>
+            <li>Sean Bean</li>
+        </ul>
+    </div>
+    <br />
+</body>
+</html>
